@@ -1,0 +1,158 @@
+body{
+	background-color: #cccccc;
+	background-image: url(https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9e3c588e7.png);
+	height: 1140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-blend-mode: overlay;*/
+}
+*{
+	box-sizing: border-box;
+}
+.header{
+	background-color: #999966;
+	border-radius: 25px;
+	background:rgba(0,0,0,0.5);	
+	position: fixed;
+	z-index: 1;
+	
+
+}
+}
+.social{
+	color:silver;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+}
+.nav-font{
+	font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+}
+.nav-cat{
+	position: absolute;
+
+}
+.btn1 {
+  background-color: #ddd;
+  border-radius: 80px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.register{
+	height: 30px;
+}
+.btn1:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.enter{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.padding-center{
+	padding-top: 15px;
+}
+.enter-size{
+	padding:10px!important;
+}
+.slide{
+	width: 600px;
+}
+.menu-sec{
+	text-decoration: none!important;
+	padding-top: 120px;
+	position: sticky;
+
+}
+
+.clear{
+	clear: left;
+
+}
+.button {
+  background-color: black; /* Green */
+  border-radius: 50%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none!important;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+ }
+
+
+.boxes{
+	border-style: solid;
+	height: 500px;
+	max-width: 300px;
+	margin: 20px;
+	border: 5px solid silver;
+	padding-right: 50px;
+	border-radius: 25px;
+	float: left;
+	clear: left;
+ }
+ .banner1{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/71uGiZMq1FL._SY879_.jpg");
+	background-size: cover;
+ }
+ .banner2{
+	background-image: url("https://cdn.pastemagazine.com/www/system/images/photo_albums/music-posters/large/fat-yahoozah-poster.jpg?1384968217");
+	background-size: cover;
+ }
+ .banner3{
+	background-image: url("http://robertrods.com/wp-content/uploads/2018/10/rock-concert-flyer-template-music-poster-template-for-a-rock-concert-punk-vector-image.jpg");
+	background-size: cover;
+ }
+ .head-banner{
+	border-style: solid;
+	background-image: url(http://www.corvallismakerfair.org/wp-content/uploads/2017/03/NewEventBanner.jpg);
+	background-size: cover;
+	height: 250px;
+	padding-right: 50px;
+	max-width: 900px;
+	margin-top: 105px;
+	border-radius: 0px;
+	margin: 0 auto;
+	margin-top: 100px;
+ }
+ .head-banner:hover {
+	background: url("https://www.queerevents.ca/sites/default/files/default_images/QES-Banner_Generic_EventListing.png") no-repeat;
+
+ /* .head-banner-son{
+	border-style: solid;
+	background-image: url(https://www.torontolimorentals.com/images/concert-event-limousine.jpg);
+	height: 100%;
+	padding-right: 20px;
+	max-width: 300px;
+	margin-top: 105px;
+	border: 5px solid teal;
+	border-radius: 40px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	float:left;
+ } */
+}
+@media only screen and (max-width:620px) {
+	/* For mobile phones: */
+	.header, .main-header, .social {
+	  width:100%;
+}
+}
