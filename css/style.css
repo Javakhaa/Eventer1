@@ -1,14 +1,25 @@
-body{
+html, body{
 	background-color: #cccccc;
-	background-image: url(https://storage.pixteller.com/designs/designs-images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9e3c588e7.png);
-	height: 1140px;
+	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: absolute;
 	/*background-blend-mode: overlay;*/
 }
 *{
-	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#footer{
+	background-color: #000;
+	position: relative;
+	height: 200px;
+	margin-bottom: 15px;
+	overflow: auto;
+	clear: both;
+
 }
 .header{
 	background-color: #999966;
@@ -16,9 +27,6 @@ body{
 	background:rgba(0,0,0,0.5);	
 	position: fixed;
 	z-index: 1;
-	
-
-}
 }
 .social{
 	color:silver;
@@ -30,14 +38,11 @@ body{
 .nav-font{
 	font-family: "KA_LORTKIPANIDZE", sans-serif;
 }
+
 a{
 	display: inline-block;
 	color:white;
 	text-decoration: none;
-}
-.nav-cat{
-	position: absolute;
-
 }
 .btn1 {
   background-color: #ddd;
@@ -49,36 +54,12 @@ a{
   margin: 4px 2px;
   transition: 0.3s;
 }
-.register{
-	height: 30px;
-}
 .btn1:hover {
   background-color: #3e8e41;
   color: white;
 }
-.enter{
-	padding-top: 15px;
-	padding-left: 15px;
-}
-.padding-center{
-	padding-top: 15px;
-}
-.enter-size{
-	padding:10px!important;
-}
-.slide{
-	width: 600px;
-}
-.menu-sec{
-	text-decoration: none!important;
-	padding-top: 120px;
-	position: sticky;
-
-}
-
 .clear{
 	clear: left;
-
 }
 .button {
   background-color: black; /* Green */
@@ -94,8 +75,6 @@ a{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
  }
-
-
 .boxes{
 	border-style: solid;
 	height: 500px;
@@ -130,6 +109,7 @@ a{
 	border-radius: 0px;
 	margin: 0 auto;
 	margin-top: 100px;
+	position: relative;
  }
  .head-banner:hover {
 	background: url("https://www.queerevents.ca/sites/default/files/default_images/QES-Banner_Generic_EventListing.png") no-repeat;
@@ -149,6 +129,25 @@ a{
 	background-size: cover;
 	float:left;
  } */
+}
+.footer-text{
+	
+	margin: 0;
+	padding: 100px;
+	text-decoration: none;
+	position: relative;
+	color:teal;
+	text-align: center;
+	display: inline-block;
+
+}
+.footer-text-parent{
+ position: absolute;
+ left: 15px;
+}
+.a1{
+	padding-left: 15px;
+	text-decoration: none;
 }
 @media only screen and (max-width:620px) {
 	/* For mobile phones: */
