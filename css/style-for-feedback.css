@@ -6,7 +6,7 @@ form.example input[type=text] {
   float: left;
   width: 80%;
   background: #f1f1f1;
-  border-radius: 20%;
+  border-radius: 15px;
 }
 
 form.example button {
@@ -17,6 +17,7 @@ form.example button {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
+  border-radius: 15px;
   border-left: none;
   cursor: pointer;
 }
@@ -29,4 +30,8 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+.map{
+  padding-right: 15px;
+  float: right;
 }
